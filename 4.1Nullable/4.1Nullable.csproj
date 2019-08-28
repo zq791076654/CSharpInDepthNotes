@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10BBB030-A122-4A1B-9AC7-F036003DEFEB}</ProjectGuid>
+    <ProjectGuid>{C0200E6D-D5E5-4F76-984B-968C75CEE6C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1._1SortAndQuery</RootNamespace>
-    <AssemblyName>1.1SortAndQuery</AssemblyName>
+    <RootNamespace>_4._1Nullable</RootNamespace>
+    <AssemblyName>4.1Nullable</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,10 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_1._1SortAndQuery.Program</StartupObject>
+    <StartupObject>_4._1Nullable.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MiscUtil">
+    <Reference Include="MiscUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d3c42c4bfacf7596, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dll\MiscUtil.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -50,21 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSharp1\ArrayListQuery.cs" />
-    <Compile Include="CSharp1\ArrayListSort.cs" />
-    <Compile Include="CSharp1\Product.cs" />
-    <Compile Include="CSharp2\ListSort.cs" />
-    <Compile Include="CSharp2\ListQuery.cs" />
-    <Compile Include="CSharp2\Product.cs" />
-    <Compile Include="CSharp3\ListQuery.cs" />
-    <Compile Include="CSharp3\ListSort.cs" />
+    <Compile Include="NullableMembers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
