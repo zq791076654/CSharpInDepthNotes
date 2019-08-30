@@ -51,9 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoxingAndUnboxing.cs" />
+    <Compile Include="NullableEquals.cs" />
     <Compile Include="NullableMembers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrueFalseOperators.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
